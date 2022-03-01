@@ -94,7 +94,7 @@ nav {
     font-size: 15px;
   }
   #homeText, #aboutText, #worksText, #contactText {
-    margin: 10px;
+    margin: 10px 5px;
   }
   .jcLogo {
     width: 40px;

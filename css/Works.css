@@ -84,14 +84,6 @@ body {
     margin-bottom: 10px;
 }
 
-#portDppLog {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 10px;
-}
-
 #portMatriceRp, #portNoumea, #portVLoc, #portWebAgency, #portDppLog {
     display: none;
     flex-direction: row;
@@ -106,4 +98,52 @@ body {
 
 #portFourCotesMenu:hover, #portMatriceRpMenu:hover, #portNoumeaMenu:hover, #portVLocMenu:hover, #portWebAgencyMenu:hover, #portDppLogMenu:hover {
     text-decoration: underline;
+}
+
+@media screen and (max-width: 1280px) {
+  .descriptWorks {
+    width: 75%;
+  }
+  #portFourCotes, #portMatriceRp, #portNoumea, #portVLoc, #portWebAgency, #portDppLog {
+    flex-direction: column;
+  }
+  #portFourCotes div, #portMatriceRp div, #portNoumea div, #portVLoc div, #portWebAgency div, #portDppLog div {
+    width: 95%;
+  }
+  .portfolioWorks {
+    padding-bottom: 30px;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .exempleWorks li {
+    font-size: 1em;
+  }
+  .exempleWorks {
+    width: 80%;
+  }
+  .portfolioWorks img {
+    width: 40%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 970px) {
+  .descriptWorks {
+    width: 95%;
+  }
+  .descriptWorks h1 {
+    font-size: 3.5em;
+  }
+  .exempleWorks h2 {
+    font-size: 1.5em;
+  }
+  .exempleWorks ul {
+    flex-wrap: wrap;
+    padding: 0;
+  }
+  .exempleWorks li {
+    padding: 10px;
+  }
+  .portfolioWorks img {
+    min-width: 300px;
+  }
 }

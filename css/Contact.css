@@ -10,6 +10,7 @@ body {
 
 .bgImgContact {
     background-color: #1d1d1d;
+  background-size: cover;
     opacity: 0.9;
 }
 
@@ -65,4 +66,22 @@ body {
 .contactEncart a:hover {
     color: #ffb222;
     transform: scale(1.1);
+}
+
+@media screen and (max-width: 970px) {
+  .contactBody {
+    width: 95%;
+  }
+  .contactBody h1 {
+    font-size: 3.5em;
+  }
+  .contactEncart {
+    font-size: 1.5em;
+  }
+  .contactEncart a {
+    margin-left: 20px;
+  }
+  .contactEncart:last-child {
+    font-size: 4em;
+  }
 }
