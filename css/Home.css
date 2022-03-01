@@ -134,6 +134,7 @@ body {
 
 #textHome p {
     cursor: pointer;
+    margin: 100px 0 0 0;
 }
 
 #textH:hover, #textE:hover, #textL1:hover, #textL2:hover, #textO:hover {
@@ -184,4 +185,304 @@ body {
         font-size: 100px;
         animation-timing-function: ease-out;
     }
+}
+
+@media screen and (max-width: 1840px) {
+  #textHome {
+    font-size: 90px;
+    left: 30%;
+  }
+
+  #textHome p {
+    margin-top: 100px;
+  }
+
+  #textJim:hover {
+    font-size: 60px;
+  }
+  @keyframes jumpLetter {
+    0% {
+      font-size: 90px;
+      animation-timing-function: ease-out;
+    }
+    20% {
+      font-size: 60px;
+      animation-timing-function: ease-in;
+    }
+    30% {
+      font-size: 90px;
+      animation-timing-function: ease-out;
+    }
+    40% {
+      font-size: 60px;
+      animation-timing-function: ease-in;
+    }
+    100% {
+      font-size: 90px;
+      animation-timing-function: ease-out;
+    }
+  }
+  #jimTitle {
+    font-size: 30em;
+  }
+  #carterTitle {
+    font-size: 15em;
+    top: 20px;
+  }
+}
+
+@media screen and (max-width: 1660px) {
+  #textHome {
+    font-size: 80px;
+  }
+
+  #textHome p {
+    margin-top: 100px;
+  }
+
+  #textJim:hover {
+    font-size: 55px;
+  }
+  @keyframes jumpLetter {
+    0% {
+      font-size: 80px;
+      animation-timing-function: ease-out;
+    }
+    20% {
+      font-size: 60px;
+      animation-timing-function: ease-in;
+    }
+    30% {
+      font-size: 80px;
+      animation-timing-function: ease-out;
+    }
+    40% {
+      font-size: 60px;
+      animation-timing-function: ease-in;
+    }
+    100% {
+      font-size: 80px;
+      animation-timing-function: ease-out;
+    }
+  }
+  #jimTitle {
+    font-size: 25em;
+  }
+}
+
+@media screen and (max-width: 1465px) {
+  #textHome {
+    font-size: 75px;
+  }
+
+  #textHome p {
+    margin-top: 80px;
+  }
+
+  #textJim:hover {
+    font-size: 55px;
+  }
+  @keyframes jumpLetter {
+    0% {
+      font-size: 75px;
+      animation-timing-function: ease-out;
+    }
+    20% {
+      font-size: 60px;
+      animation-timing-function: ease-in;
+    }
+    30% {
+      font-size: 75px;
+      animation-timing-function: ease-out;
+    }
+    40% {
+      font-size: 60px;
+      animation-timing-function: ease-in;
+    }
+    100% {
+      font-size: 75px;
+      animation-timing-function: ease-out;
+    }
+  }
+  #jimTitle {
+    font-size: 22em;
+  }
+}
+
+@media screen and (max-width: 1375px) {
+  #textHome {
+    font-size: 70px;
+    left: 28%;
+  }
+
+  #textHome p {
+    margin-top: 80px;
+  }
+
+  #textJim:hover {
+    font-size: 50px;
+  }
+  @keyframes jumpLetter {
+    0% {
+      font-size: 70px;
+      animation-timing-function: ease-out;
+    }
+    20% {
+      font-size: 60px;
+      animation-timing-function: ease-in;
+    }
+    30% {
+      font-size: 70px;
+      animation-timing-function: ease-out;
+    }
+    40% {
+      font-size: 60px;
+      animation-timing-function: ease-in;
+    }
+    100% {
+      font-size: 70px;
+      animation-timing-function: ease-out;
+    }
+  }
+  #jimTitle {
+    font-size: 20em;
+  }
+  #carterTitle {
+    font-size: 13em;
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  #textHome {
+    font-size: 55px;
+    left: 28%;
+  }
+
+  #textHome p {
+    margin-top: 150px;
+  }
+
+  #textJim:hover {
+    font-size: 50px;
+  }
+  #verticalLine2 {
+    margin-top: 12%;
+  }
+  @keyframes jumpLetter {
+    0% {
+      font-size: 55px;
+      animation-timing-function: ease-out;
+    }
+    20% {
+      font-size: 50px;
+      animation-timing-function: ease-in;
+    }
+    30% {
+      font-size: 55px;
+      animation-timing-function: ease-out;
+    }
+    50% {
+      font-size: 50px;
+      animation-timing-function: ease-in;
+    }
+    100% {
+      font-size: 55px;
+      animation-timing-function: ease-out;
+    }
+  }
+  #jimTitle {
+    font-size: 16em;
+  }
+  #carterTitle {
+    font-size: 10em;
+  }
+  @keyframes upTo {
+    100% {
+      top: 25%;
+    }
+    0% {
+      top: 50%;
+    }
+  }
+  @keyframes leftTo {
+    100% {
+      left: 40%;
+    }
+    0% {
+      left: 30%;
+    }
+  }
+}
+
+@media screen and (max-width: 970px) {
+  #verticalGrid {
+    justify-content: space-between;
+  }
+  #verticalLine1 {
+    margin-left: 20px;
+    height: 80vh;
+    margin-top: 40%;
+  }
+  #verticalLine2 {
+    margin-right: 20px;
+    height: 80vh;
+    margin-top: 30%;
+  }
+  #horizontalLine1 {
+    width: 95vw;
+    top: 80%;
+  }
+  #horizontalLine2 {
+    width: 92vw;
+    left: 4%;
+  }
+  #jimTitle {
+    writing-mode : inherit;
+    transform: rotate(0deg);
+    font-size: 12em;
+    top: 8%;
+    left: 0;
+  }
+  #carterTitle {
+    font-size: 8em;
+    top: 83%;
+  }
+  #jimTitle {
+    animation: rightTo 10s linear infinite alternate;
+  }
+
+  @keyframes rightTo {
+    0% {
+      left: -10%;
+    }
+    100% {
+      left: 15%;
+    }
+  }
+
+  #carterTitle {
+    animation: leftTo 20s  linear infinite alternate;
+  }
+
+  @keyframes leftTo {
+    100% {
+      left: 5%;
+    }
+    0% {
+      left: 50%;
+    }
+  }
+  #textHome {
+    top: 30%;
+    left: 10%;
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #textHome {
+    top: 30%;
+    left: 15%;
+    font-size: 30px;
+  }
 }

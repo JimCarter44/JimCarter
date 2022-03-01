@@ -53,5 +53,49 @@ nav {
 
 .jcLogo {
     width: 150px;
-  cursor: pointer;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1500px) {
+  #navList {
+    font-size: 30px;
+  }
+  .jcLogo {
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 1290px) {
+  #navList {
+    font-size: 25px;
+  }
+  .jcLogo {
+    width: 95px;
+  }
+}
+
+@media screen and (max-width: 1070px) {
+  #navList {
+    font-size: 20px;
+  }
+  .jcLogo {
+    width: 90px;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  nav {
+    height: auto;
+    width: 100vw;
+  }
+  #navList {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  #homeText, #aboutText, #worksText, #contactText {
+    margin: 10px;
+  }
+  .jcLogo {
+    width: 40px;
+  }
 }
