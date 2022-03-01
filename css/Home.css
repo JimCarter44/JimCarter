@@ -1,11 +1,11 @@
 body {
   margin: 0;
+  overflow: hidden;
 }
 
 .homeBody {
     background-color: #1d1d1d;
     height: 100vh;
-  overflow: hidden;
 }
 
 #yellowGrid {
