@@ -415,6 +415,9 @@ body {
 }
 
 @media screen and (max-width: 970px) {
+  .homeBody {
+    height: 100vh;
+  }
   #verticalGrid {
     justify-content: space-between;
   }
