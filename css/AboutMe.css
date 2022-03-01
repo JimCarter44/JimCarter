@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+}
+
+.aboutMeBody {
+    background-color: #1d1d1d;
+    min-height: 100vh;
+    padding-bottom: 100px;
+}
+
+.descriptAM {
+    width: 60%;
+    margin: auto;
+    padding-top: 100px;
+    color: #cecece;
+}
+
+.underLineAM {
+    background-color: #ffb222;
+    height: 2px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.descriptAM h1 {
+    font-family: "Arial Rounded MT Bold", sans-serif;
+    font-size: 6em;
+    margin: 0;
+}
+
+.encartAM {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin: auto;
+}
+
+.encartAM img {
+    width: 250px;
+    height: 250px;
+    margin-right: 50px;
+}
+
+.encartAM p {
+    font-size: 1.3em;
+    font-family: "Arial Rounded MT Bold", sans-serif;
+}
+
+.textAM {
+    color: #cecece;
+}
+
+.textAM a {
+    text-decoration: none;
+    color: #ffb222;
+}
+
+.envXAM, .cotesAM {
+    transition: text-decoration 0.5s;
+}
+
+.techAM {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.leftTechAM, .rightTechAM {
+    width: 350px;
+}
+
+.experienceAM {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    color: #cecece;
+    width: 60%;
+    min-height: 550px;
+    margin: auto;
+    font-family: "Arial Rounded MT Bold", sans-serif;
+}
+
+.selectExp {
+    list-style: none;
+    width: 30%;
+}
+
+.selectExp li {
+    font-size: 2em;
+    padding: 30px 0;
+}
+
+.selectExp li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.descriptExp h2 {
+    font-size: 2.5em;
+    margin: 0;
+    padding-top: 30px;
+}
+
+.dateExp {
+    font-style: italic;
+    margin: 0 0 30px 0
+}
+
+.detailsExp {
+    padding-left: 30px;
+    font-size: 1.2em;
+}
+
+#connectProject, #environX, #franceInterim {
+    display: none;
+}
+
+#fourCotesMenu {
+    color: #ffb222;
+}

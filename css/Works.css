@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+}
+
+.worksBody  {
+    background-color: #1d1d1d;
+    min-height: 100vh;
+    color: #cecece;
+    font-family: "Arial Rounded MT Bold", sans-serif;
+}
+
+.descriptWorks {
+    width: 60%;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.descriptWorks h1{
+    font-size: 6em;
+    margin: 0;
+}
+
+.underLineWorks {
+    background-color: #ffb222;
+    height: 2px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.linkProject {
+    color: #ffb222;
+}
+
+.exempleWorks {
+    width: 60%;
+    margin: auto;
+}
+
+.exempleWorks h2 {
+    font-size: 2em;
+}
+
+.exempleWorks ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.exempleWorks li {
+    list-style: none;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+
+.portfolioWorks {
+    margin-top: 50px;
+}
+
+.portfolioWorks img {
+    width: 55%;
+    min-width: 643px;
+}
+
+.portfolioWorks ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolioWorks li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    cursor: text;
+}
+
+#portFourCotesMenu {
+    color: #ffb222;
+}
+
+#portFourCotes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#portDppLog {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#portMatriceRp, #portNoumea, #portVLoc, #portWebAgency, #portDppLog {
+    display: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#portFourCotes div, #portMatriceRp div, #portNoumea div, #portVLoc div, #portWebAgency div, #portDppLog div {
+    width: 40%;
+}
+
+#portFourCotesMenu:hover, #portMatriceRpMenu:hover, #portNoumeaMenu:hover, #portVLocMenu:hover, #portWebAgencyMenu:hover, #portDppLogMenu:hover {
+    text-decoration: underline;
+}

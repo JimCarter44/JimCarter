@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+}
+
+#bgContact {
+    background-image: url("../img/ville-montreal.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bgImgContact {
+    background-color: #1d1d1d;
+    opacity: 0.9;
+}
+
+.contactBody {
+    min-height: 100vh;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactBody h1 {
+    font-family: "Arial Rounded MT Bold", sans-serif;
+    color: #cecece;
+    font-size: 6em;
+    margin-right: 10%;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+.underLineContact {
+    background-color: #ffb222;
+    height: 2px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.linkContact {
+    align-items: center;
+}
+
+.contactEncart {
+    margin-right: 10%;
+    color: #cecece;
+    font-size: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.contactEncart a {
+    text-decoration: none;
+    color: #cecece;
+    transition: all .2s ease-in-out;
+    margin-left: 50px;
+}
+
+.contactEncart:last-child {
+    font-size: 6em;
+}
+
+.contactEncart a:hover {
+    color: #ffb222;
+    transform: scale(1.1);
+}

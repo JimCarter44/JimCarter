@@ -1,0 +1,187 @@
+body {
+  margin: 0;
+}
+
+.homeBody {
+    background-color: #1d1d1d;
+    min-height: 100vh;
+}
+
+#yellowGrid {
+    position: fixed;
+}
+
+#verticalGrid {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+}
+
+#verticalLine1, #verticalLine2 {
+    background-color: #ffb222;
+    width: 2px;
+}
+
+#horizontalLine1, #horizontalLine2 {
+    background-color: #ffb222;
+    height: 2px;
+}
+
+#verticalLine1 {
+    margin-top: 2%;
+    height: 90vh;
+}
+
+#verticalLine2 {
+    margin-top: 8%;
+    height: 80vh;
+}
+
+#horizontalGrid {
+    height: 100vh;
+    width: 100vw;
+}
+
+#horizontalLine1 {
+    width: 85vw;
+    position: absolute;
+    top: 90%;
+    left: 2%;
+}
+
+#horizontalLine2 {
+    width: 70vw;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+/* Title Jim Carter */
+
+#titleChargingPage {
+    width: 99vw;
+    height: 99vh;
+    position: fixed;
+}
+
+#jimTitle, #carterTitle {
+    font-family: "Arial Rounded MT Bold", sans-serif;
+    color: #262424;
+    margin: 0;
+    cursor: default;
+}
+
+#jimTitle {
+    font-size: 30em;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    position: absolute;
+    top: 30%;
+    left: 0;
+}
+
+#carterTitle {
+    font-size: 15em;
+    position: absolute;
+    top: 0;
+    left: 30%;
+}
+
+/* animation title */
+
+#jimTitle {
+    animation: upTo 10s linear infinite alternate;
+}
+
+@keyframes upTo {
+    100% {
+        top: 22%;
+    }
+    0% {
+        top: 35%;
+    }
+}
+
+#carterTitle {
+    animation: leftTo 30s  linear infinite alternate;
+}
+
+@keyframes leftTo {
+    100% {
+        left: 50%;
+    }
+    0% {
+        left: 30%;
+    }
+}
+
+/* text to home pages */
+
+#textHome {
+    font-family: "Arial Rounded MT Bold", sans-serif;
+    font-weight: bold;
+    text-align: right;
+    color: #cecece;
+    margin: 0;
+    font-size: 100px;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
+
+#textHome p {
+    cursor: pointer;
+}
+
+#textH:hover, #textE:hover, #textL1:hover, #textL2:hover, #textO:hover {
+    color: #ffb222;
+}
+
+#textJim {
+    transition: font-size 1s, color 0.5s, text-shadow 0.5s;
+}
+
+#textJim:hover {
+    font-size: 80px;
+    color: #1d1d1d;
+    text-shadow: -1px 0 #ffb222, 0 1px #ffb222,
+    1px 0 #ffb222, 0 -1px #ffb222;
+}
+
+.jumpingLetter:hover {
+    animation: jumpLetter 1s linear;
+}
+
+@keyframes jumpLetter {
+    0% {
+        font-size: 100px;
+        animation-timing-function: ease-out;
+    }
+    20% {
+        font-size: 60px;
+        animation-timing-function: ease-in;
+    }
+    30% {
+        font-size: 70px;
+        animation-timing-function: ease-out;
+    }
+    40% {
+        font-size: 60px;
+        animation-timing-function: ease-in;
+    }
+    50% {
+        font-size: 70px;
+        animation-timing-function: ease-out;
+    }
+    90% {
+        font-size: 95px;
+        animation-timing-function: ease-in;
+    }
+    100% {
+        font-size: 100px;
+        animation-timing-function: ease-out;
+    }
+}
