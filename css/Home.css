@@ -4,7 +4,7 @@ body {
 
 .homeBody {
     background-color: #1d1d1d;
-    min-height: 100vh;
+    height: 100vh;
 }
 
 #yellowGrid {
