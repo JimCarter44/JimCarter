@@ -91,6 +91,7 @@ nav {
   #navList {
     flex-direction: row;
     justify-content: space-around;
+    font-size: 15px;
   }
   #homeText, #aboutText, #worksText, #contactText {
     margin: 10px;

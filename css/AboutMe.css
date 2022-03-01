@@ -118,3 +118,49 @@ body {
 #fourCotesMenu {
     color: #ffb222;
 }
+
+@media screen and (max-width: 1660px) {
+    .encartAM {
+      flex-direction: column;
+    }
+  .encartAM img {
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 970px) {
+  .encartAM {
+    width: 90%;
+  }
+  .descriptAM {
+    width: 95%;
+  }
+  .descriptAM h1 {
+    font-size: 3.5em;
+  }
+  .experienceAM {
+    flex-direction: column;
+    min-height: 100%;
+    width: 90%;
+    margin: 0;
+  }
+  .selectExp {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 95vw;
+    padding: 0;
+  }
+  .selectExp li {
+    font-size: 1em;
+    padding: 10px 20px;
+  }
+  .encartAM img {
+    width: 200px;
+    height: 200px;
+  }
+  .descriptExp {
+    width: 90vw;
+    margin-left: 2.5vw;
+  }
+}
